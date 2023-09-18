@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .card {
+        box-shadow: 2px 3px 15px 3px #00b4d8;
+        animation-name: examples;
+        animation-duration: 3s;
+        /* animation-delay: 3s; */
+
+        display: flex;
+        padding: 30px;
+        width: 400px;
+        background-color: #48cae4;
+        margin: 0 auto;
+        justify-content: space-around;
+
+        text-align: center;
+        border-radius: 12px;
+        border: 6px dotted #023e8a;
+      }
+
+      @keyframes examples {
+        from {
+          background-color: #1d3557;
+        }
+        to {
+          background-color: #0096c7;
+        }
+      }
+
+      body {
+        /* text-decoration-color: wheat; */
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+      }
+      .image {
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="imagelayer">
+        <img
+          class="image"
+          src="images/me.png"
+          alt="Sparkling Lily standing in a photoshoot"
+        />
+      </div>
+      <div>
+        <h3>Sparkling Lily</h3>
+        <p>Frontend Developer</p>
+        <h4>Uromi, Nigeria</h4>
+      </div>
+    </div>
+  </body>
+</html>
